@@ -1,0 +1,126 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L XIAO:SeeeduinoXIAO U?
+U 1 1 60E4994C
+P 1950 1850
+F 0 "U?" H 1925 911 50  0000 C CNN
+F 1 "SeeeduinoXIAO" H 1925 820 50  0000 C CNN
+F 2 "" H 1600 2050 50  0001 C CNN
+F 3 "" H 1600 2050 50  0001 C CNN
+	1    1950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E4B53E
+P 3750 1350
+F 0 "SW?" H 3750 1635 50  0000 C CNN
+F 1 "SW_Push" H 3750 1544 50  0000 C CNN
+F 2 "" H 3750 1550 50  0001 C CNN
+F 3 "~" H 3750 1550 50  0001 C CNN
+	1    3750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E4BF51
+P 4250 1350
+F 0 "SW?" H 4250 1635 50  0000 C CNN
+F 1 "SW_Push" H 4250 1544 50  0000 C CNN
+F 2 "" H 4250 1550 50  0001 C CNN
+F 3 "~" H 4250 1550 50  0001 C CNN
+	1    4250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E4E3F9
+P 4750 1350
+F 0 "SW?" H 4750 1635 50  0000 C CNN
+F 1 "SW_Push" H 4750 1544 50  0000 C CNN
+F 2 "" H 4750 1550 50  0001 C CNN
+F 3 "~" H 4750 1550 50  0001 C CNN
+	1    4750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E4EB50
+P 5250 1350
+F 0 "SW?" H 5250 1635 50  0000 C CNN
+F 1 "SW_Push" H 5250 1544 50  0000 C CNN
+F 2 "" H 5250 1550 50  0001 C CNN
+F 3 "~" H 5250 1550 50  0001 C CNN
+	1    5250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E4F828
+P 5750 1350
+F 0 "SW?" H 5750 1635 50  0000 C CNN
+F 1 "SW_Push" H 5750 1544 50  0000 C CNN
+F 2 "" H 5750 1550 50  0001 C CNN
+F 3 "~" H 5750 1550 50  0001 C CNN
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E50132
+P 6200 1350
+F 0 "SW?" H 6200 1635 50  0000 C CNN
+F 1 "SW_Push" H 6200 1544 50  0000 C CNN
+F 2 "" H 6200 1550 50  0001 C CNN
+F 3 "~" H 6200 1550 50  0001 C CNN
+	1    6200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E50D8E
+P 6700 1350
+F 0 "SW?" H 6700 1635 50  0000 C CNN
+F 1 "SW_Push" H 6700 1544 50  0000 C CNN
+F 2 "" H 6700 1550 50  0001 C CNN
+F 3 "~" H 6700 1550 50  0001 C CNN
+	1    6700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E51626
+P 7200 1350
+F 0 "SW?" H 7200 1635 50  0000 C CNN
+F 1 "SW_Push" H 7200 1544 50  0000 C CNN
+F 2 "" H 7200 1550 50  0001 C CNN
+F 3 "~" H 7200 1550 50  0001 C CNN
+	1    7200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60E51ECE
+P 7700 1350
+F 0 "SW?" H 7700 1635 50  0000 C CNN
+F 1 "SW_Push" H 7700 1544 50  0000 C CNN
+F 2 "" H 7700 1550 50  0001 C CNN
+F 3 "~" H 7700 1550 50  0001 C CNN
+	1    7700 1350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
