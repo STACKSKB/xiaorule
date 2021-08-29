@@ -19,7 +19,7 @@ U 1 1 60E4994C
 P 1900 2050
 F 0 "U1" H 1875 1111 50  0000 C CNN
 F 1 "SeeeduinoXIAO" H 1875 1020 50  0000 C CNN
-F 2 "" H 1550 2250 50  0001 C CNN
+F 2 "xiao:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" H 1550 2250 50  0001 C CNN
 F 3 "" H 1550 2250 50  0001 C CNN
 	1    1900 2050
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 60E4F828
 P 5450 1750
 F 0 "SW4" H 5450 2035 50  0000 C CNN
 F 1 "SW_Push" H 5450 1944 50  0000 C CNN
-F 2 "" H 5450 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 5450 1950 50  0001 C CNN
 F 3 "~" H 5450 1950 50  0001 C CNN
 	1    5450 1750
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 60E50132
 P 5900 1750
 F 0 "SW5" H 5900 2035 50  0000 C CNN
 F 1 "SW_Push" H 5900 1944 50  0000 C CNN
-F 2 "" H 5900 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 5900 1950 50  0001 C CNN
 F 3 "~" H 5900 1950 50  0001 C CNN
 	1    5900 1750
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 60E53EBD
 P 3650 1900
 F 0 "D0" V 3696 1820 50  0000 R CNN
 F 1 "1N4148" V 3605 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3650 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 3650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 1900 50  0001 C CNN
 	1    3650 1900
 	0    -1   -1   0   
@@ -63,7 +63,7 @@ U 1 1 60E58273
 P 4150 1900
 F 0 "D1" V 4196 1820 50  0000 R CNN
 F 1 "1N4148" V 4105 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4150 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 4150 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 1900 50  0001 C CNN
 	1    4150 1900
 	0    -1   -1   0   
@@ -74,7 +74,7 @@ U 1 1 60E598F2
 P 4650 1900
 F 0 "D2" V 4696 1820 50  0000 R CNN
 F 1 "1N4148" V 4605 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4650 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 4650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 1900 50  0001 C CNN
 	1    4650 1900
 	0    -1   -1   0   
@@ -85,7 +85,7 @@ U 1 1 60E59C4A
 P 5150 1900
 F 0 "D3" V 5196 1820 50  0000 R CNN
 F 1 "1N4148" V 5105 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5150 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 5150 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	0    -1   -1   0   
@@ -96,7 +96,7 @@ U 1 1 60E5A052
 P 5650 1900
 F 0 "D4" V 5696 1820 50  0000 R CNN
 F 1 "1N4148" V 5605 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5650 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 5650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 1900 50  0001 C CNN
 	1    5650 1900
 	0    -1   -1   0   
@@ -154,7 +154,7 @@ U 1 1 60E5C675
 P 6100 1900
 F 0 "D5" V 6146 1820 50  0000 R CNN
 F 1 "1N4148" V 6055 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6100 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 6100 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 1900 50  0001 C CNN
 	1    6100 1900
 	0    -1   -1   0   
@@ -165,7 +165,7 @@ U 1 1 60E4EB50
 P 4950 1750
 F 0 "SW3" H 4950 2035 50  0000 C CNN
 F 1 "SW_Push" H 4950 1944 50  0000 C CNN
-F 2 "" H 4950 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 4950 1950 50  0001 C CNN
 F 3 "~" H 4950 1950 50  0001 C CNN
 	1    4950 1750
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 60E4E3F9
 P 4450 1750
 F 0 "SW2" H 4450 2035 50  0000 C CNN
 F 1 "SW_Push" H 4450 1944 50  0000 C CNN
-F 2 "" H 4450 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 4450 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
 	1    4450 1750
 	1    0    0    -1  
@@ -187,7 +187,7 @@ U 1 1 60E4BF51
 P 3950 1750
 F 0 "SW1" H 3950 2035 50  0000 C CNN
 F 1 "SW_Push" H 3950 1944 50  0000 C CNN
-F 2 "" H 3950 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 3950 1950 50  0001 C CNN
 F 3 "~" H 3950 1950 50  0001 C CNN
 	1    3950 1750
 	1    0    0    -1  
@@ -198,7 +198,7 @@ U 1 1 60E4B53E
 P 3450 1750
 F 0 "SW0" H 3450 2035 50  0000 C CNN
 F 1 "SW_Push" H 3450 1944 50  0000 C CNN
-F 2 "" H 3450 1950 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 3450 1950 50  0001 C CNN
 F 3 "~" H 3450 1950 50  0001 C CNN
 	1    3450 1750
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 612A23E7
 P 6650 1450
 F 0 "SW6" V 6604 1680 50  0000 L CNN
 F 1 "Rotary_Encoder_Switch" V 6695 1680 50  0000 L CNN
-F 2 "" H 6500 1610 50  0001 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6500 1610 50  0001 C CNN
 F 3 "~" H 6650 1710 50  0001 C CNN
 	1    6650 1450
 	0    1    1    0   
@@ -246,7 +246,7 @@ U 1 1 612AB897
 P 6750 1900
 F 0 "D6" V 6796 1820 50  0000 R CNN
 F 1 "1N4148" V 6705 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 1725 50  0001 C CNN
+F 2 "keyboard:D3_TH_SMD" H 6750 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 1900 50  0001 C CNN
 	1    6750 1900
 	0    -1   -1   0   
@@ -263,10 +263,10 @@ col6
 Text Label 850  2500 0    50   ~ 0
 col6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 612B9EFF
 P 6650 1150
-F 0 "#PWR?" H 6650 900 50  0001 C CNN
+F 0 "#PWR0101" H 6650 900 50  0001 C CNN
 F 1 "GND" H 6655 977 50  0000 C CNN
 F 2 "" H 6650 1150 50  0001 C CNN
 F 3 "" H 6650 1150 50  0001 C CNN
@@ -276,33 +276,18 @@ $EndComp
 Wire Wire Line
 	6550 1150 6550 850 
 Wire Wire Line
-	6550 850  7100 850 
-Wire Wire Line
 	6750 1150 7100 1150
-$Comp
-L Device:R R1
-U 1 1 612BCE7A
-P 7250 850
-F 0 "R1" V 7043 850 50  0000 C CNN
-F 1 "R" V 7134 850 50  0000 C CNN
-F 2 "" V 7180 850 50  0001 C CNN
-F 3 "~" H 7250 850 50  0001 C CNN
-	1    7250 850 
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R2
 U 1 1 612BDF9C
 P 7250 1150
 F 0 "R2" V 7457 1150 50  0000 C CNN
 F 1 "R" V 7366 1150 50  0000 C CNN
-F 2 "" V 7180 1150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 1150 50  0001 C CNN
 F 3 "~" H 7250 1150 50  0001 C CNN
 	1    7250 1150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7400 850  7700 850 
 Wire Wire Line
 	7400 1150 7700 1150
 $Comp
@@ -311,12 +296,11 @@ U 1 1 612DFA6B
 P 7700 700
 F 0 "C1" H 7815 746 50  0000 L CNN
 F 1 "C" H 7815 655 50  0000 L CNN
-F 2 "" H 7738 550 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 7738 550 50  0001 C CNN
 F 3 "~" H 7700 700 50  0001 C CNN
 	1    7700 700 
 	1    0    0    -1  
 $EndComp
-Connection ~ 7700 850 
 Wire Wire Line
 	7700 850  8150 850 
 $Comp
@@ -325,7 +309,7 @@ U 1 1 612E06EF
 P 7700 1300
 F 0 "C2" H 7815 1346 50  0000 L CNN
 F 1 "C" H 7815 1255 50  0000 L CNN
-F 2 "" H 7738 1150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 7738 1150 50  0001 C CNN
 F 3 "~" H 7700 1300 50  0001 C CNN
 	1    7700 1300
 	1    0    0    -1  
@@ -341,4 +325,42 @@ Text Label 2750 2200 0    50   ~ 0
 EncA
 Text Label 2750 2350 0    50   ~ 0
 EncB
+$Comp
+L power:GND #PWR0102
+U 1 1 612E2EB8
+P 7700 550
+F 0 "#PWR0102" H 7700 300 50  0001 C CNN
+F 1 "GND" V 7705 422 50  0000 R CNN
+F 2 "" H 7700 550 50  0001 C CNN
+F 3 "" H 7700 550 50  0001 C CNN
+	1    7700 550 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 612E3AC7
+P 7700 1450
+F 0 "#PWR0103" H 7700 1200 50  0001 C CNN
+F 1 "GND" V 7705 1322 50  0000 R CNN
+F 2 "" H 7700 1450 50  0001 C CNN
+F 3 "" H 7700 1450 50  0001 C CNN
+	1    7700 1450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 850 
+Wire Wire Line
+	7400 850  7700 850 
+$Comp
+L Device:R R1
+U 1 1 612BCE7A
+P 7250 850
+F 0 "R1" V 7043 850 50  0000 C CNN
+F 1 "R" V 7134 850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 850 50  0001 C CNN
+F 3 "~" H 7250 850 50  0001 C CNN
+	1    7250 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 850  7100 850 
 $EndSCHEMATC
