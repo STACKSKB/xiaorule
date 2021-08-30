@@ -52,7 +52,7 @@ U 1 1 60E53EBD
 P 3650 1900
 F 0 "D0" V 3696 1820 50  0000 R CNN
 F 1 "1N4148" V 3605 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 3650 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 3650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 1900 50  0001 C CNN
 	1    3650 1900
 	0    -1   -1   0   
@@ -63,7 +63,7 @@ U 1 1 60E58273
 P 4150 1900
 F 0 "D1" V 4196 1820 50  0000 R CNN
 F 1 "1N4148" V 4105 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 4150 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 4150 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4150 1900 50  0001 C CNN
 	1    4150 1900
 	0    -1   -1   0   
@@ -74,7 +74,7 @@ U 1 1 60E598F2
 P 4650 1900
 F 0 "D2" V 4696 1820 50  0000 R CNN
 F 1 "1N4148" V 4605 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 4650 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 4650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4650 1900 50  0001 C CNN
 	1    4650 1900
 	0    -1   -1   0   
@@ -85,7 +85,7 @@ U 1 1 60E59C4A
 P 5150 1900
 F 0 "D3" V 5196 1820 50  0000 R CNN
 F 1 "1N4148" V 5105 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 5150 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 5150 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5150 1900 50  0001 C CNN
 	1    5150 1900
 	0    -1   -1   0   
@@ -96,7 +96,7 @@ U 1 1 60E5A052
 P 5650 1900
 F 0 "D4" V 5696 1820 50  0000 R CNN
 F 1 "1N4148" V 5605 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 5650 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 5650 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5650 1900 50  0001 C CNN
 	1    5650 1900
 	0    -1   -1   0   
@@ -154,7 +154,7 @@ U 1 1 60E5C675
 P 6100 1900
 F 0 "D5" V 6146 1820 50  0000 R CNN
 F 1 "1N4148" V 6055 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 6100 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 6100 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 1900 50  0001 C CNN
 	1    6100 1900
 	0    -1   -1   0   
@@ -246,7 +246,7 @@ U 1 1 612AB897
 P 6750 1900
 F 0 "D6" V 6796 1820 50  0000 R CNN
 F 1 "1N4148" V 6705 1820 50  0000 R CNN
-F 2 "keyboard:D3_TH_SMD" H 6750 1725 50  0001 C CNN
+F 2 "keyboard:D3_SMD" H 6750 1725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 1900 50  0001 C CNN
 	1    6750 1900
 	0    -1   -1   0   
@@ -283,7 +283,7 @@ U 1 1 612BDF9C
 P 7250 1150
 F 0 "R2" V 7457 1150 50  0000 C CNN
 F 1 "R" V 7366 1150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 1150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7180 1150 50  0001 C CNN
 F 3 "~" H 7250 1150 50  0001 C CNN
 	1    7250 1150
 	0    -1   -1   0   
@@ -296,7 +296,7 @@ U 1 1 612DFA6B
 P 7700 700
 F 0 "C1" H 7815 746 50  0000 L CNN
 F 1 "C" H 7815 655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 7738 550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 550 50  0001 C CNN
 F 3 "~" H 7700 700 50  0001 C CNN
 	1    7700 700 
 	1    0    0    -1  
@@ -309,7 +309,7 @@ U 1 1 612E06EF
 P 7700 1300
 F 0 "C2" H 7815 1346 50  0000 L CNN
 F 1 "C" H 7815 1255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 7738 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7738 1150 50  0001 C CNN
 F 3 "~" H 7700 1300 50  0001 C CNN
 	1    7700 1300
 	1    0    0    -1  
@@ -356,7 +356,7 @@ U 1 1 612BCE7A
 P 7250 850
 F 0 "R1" V 7043 850 50  0000 C CNN
 F 1 "R" V 7134 850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7180 850 50  0001 C CNN
 F 3 "~" H 7250 850 50  0001 C CNN
 	1    7250 850 
 	0    1    1    0   
