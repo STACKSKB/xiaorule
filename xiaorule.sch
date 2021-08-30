@@ -25,28 +25,6 @@ F 3 "" H 1550 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
-U 1 1 60E4F828
-P 5450 1750
-F 0 "SW4" H 5450 2035 50  0000 C CNN
-F 1 "SW_Push" H 5450 1944 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 5450 1950 50  0001 C CNN
-F 3 "~" H 5450 1950 50  0001 C CNN
-	1    5450 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW5
-U 1 1 60E50132
-P 5900 1750
-F 0 "SW5" H 5900 2035 50  0000 C CNN
-F 1 "SW_Push" H 5900 1944 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX_optional" H 5900 1950 50  0001 C CNN
-F 3 "~" H 5900 1950 50  0001 C CNN
-	1    5900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N4148 D0
 U 1 1 60E53EBD
 P 3650 1900
@@ -109,11 +87,6 @@ Wire Wire Line
 	4250 1750 4250 1350
 Wire Wire Line
 	4750 1750 4750 1350
-Wire Wire Line
-	5250 1750 5250 1350
-Wire Wire Line
-	5700 1750 5700 1350
-Connection ~ 3650 2050
 Connection ~ 4150 2050
 Wire Wire Line
 	4150 2050 3650 2050
@@ -146,19 +119,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 2500 850  2500
 Connection ~ 5650 2050
-Wire Wire Line
-	6100 2050 5650 2050
-$Comp
-L Diode:1N4148 D5
-U 1 1 60E5C675
-P 6100 1900
-F 0 "D5" V 6146 1820 50  0000 R CNN
-F 1 "1N4148" V 6055 1820 50  0000 R CNN
-F 2 "keyboard:D3_SMD" H 6100 1725 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6100 1900 50  0001 C CNN
-	1    6100 1900
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Switch:SW_Push SW3
 U 1 1 60E4EB50
@@ -215,8 +175,6 @@ Text Label 850  2050 0    50   ~ 0
 col3
 Text Label 850  2350 0    50   ~ 0
 col5
-Wire Wire Line
-	2700 2050 3650 2050
 Text Label 3250 1350 3    50   ~ 0
 col0
 Text Label 3750 1350 3    50   ~ 0
@@ -227,8 +185,6 @@ Text Label 4750 1350 3    50   ~ 0
 col3
 Text Label 5250 1350 3    50   ~ 0
 col4
-Text Label 5700 1350 3    50   ~ 0
-col5
 $Comp
 L Device:Rotary_Encoder_Switch SW6
 U 1 1 612A23E7
@@ -252,16 +208,13 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6750 2050 6100 2050
-Connection ~ 6100 2050
-Wire Wire Line
 	6550 1750 6300 1750
 Wire Wire Line
 	6300 1750 6300 1350
 Text Label 6300 1500 1    50   ~ 0
-col6
+col5
 Text Label 850  2500 0    50   ~ 0
-col6
+row0
 $Comp
 L power:GND #PWR0101
 U 1 1 612B9EFF
@@ -363,4 +316,24 @@ F 3 "~" H 7250 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 850  7100 850 
+Wire Wire Line
+	5250 1750 5250 1350
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60E4F828
+P 5450 1750
+F 0 "SW4" H 5450 2035 50  0000 C CNN
+F 1 "SW_Push" H 5450 1944 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX_optional" H 5450 1950 50  0001 C CNN
+F 3 "~" H 5450 1950 50  0001 C CNN
+	1    5450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2050 6750 2050
+Wire Wire Line
+	3650 2050 3150 2050
+Connection ~ 3650 2050
+Text Label 3150 2050 0    50   ~ 0
+row0
 $EndSCHEMATC
